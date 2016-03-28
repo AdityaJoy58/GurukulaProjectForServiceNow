@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ServiceNow Suite" duration-ms="222954" started-at="2016-03-28T09:46:45Z" finished-at="2016-03-28T09:50:28Z">
+    <groups>
+      <group name="ServiceNow_FunctionalTests">
+        <method signature="verifyCreateSearchEditDeleteBranchFuntionality.testCreateANewBranchAndVerify()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testCreateANewBranchAndVerify" class="com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteBranchFuntionality.testDeleteABranch()[pri:4, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testDeleteABranch" class="com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteBranchFuntionality.testEditABranch()[pri:3, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testEditABranch" class="com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteBranchFuntionality.testSearchABranchWithBranchCode()[pri:2, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testSearchABranchWithBranchCode" class="com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteBranchFuntionality.testSearchABranchWithBranchName()[pri:1, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testSearchABranchWithBranchName" class="com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteStaffFuntionality.testCreateANewStaffAndVerify()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testCreateANewStaffAndVerify" class="com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteStaffFuntionality.testDeleteAStaff()[pri:4, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testDeleteAStaff" class="com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteStaffFuntionality.testEditAStaff()[pri:3, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testEditAStaff" class="com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteStaffFuntionality.testSearchAStaffWithStaffName()[pri:1, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testSearchAStaffWithStaffName" class="com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality"/>
+        <method signature="verifyCreateSearchEditDeleteStaffFuntionality.testSearchAStaffWithStaffRelatedBranchName()[pri:2, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testSearchAStaffWithStaffRelatedBranchName" class="com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality"/>
+        <method signature="verifyLoginFunctionality.testInValidCredentials()[pri:0, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="testInValidCredentials" class="com.servicenow.Tests.verifyLoginFunctionality"/>
+        <method signature="verifyLoginFunctionality.testRegisterNewUser()[pri:2, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="testRegisterNewUser" class="com.servicenow.Tests.verifyLoginFunctionality"/>
+        <method signature="verifyLoginFunctionality.testValidCredentials()[pri:1, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="testValidCredentials" class="com.servicenow.Tests.verifyLoginFunctionality"/>
+      </group> <!-- ServiceNow_FunctionalTests -->
+    </groups>
+    <test name="ServiceNow Tests" duration-ms="222954" started-at="2016-03-28T09:46:45Z" finished-at="2016-03-28T09:50:28Z">
+      <class name="com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="setUp" is-config="true" duration-ms="1732" started-at="2016-03-28T15:17:54Z" finished-at="2016-03-28T15:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCreateANewBranchAndVerify()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testCreateANewBranchAndVerify" duration-ms="14294" started-at="2016-03-28T15:17:56Z" finished-at="2016-03-28T15:18:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateANewBranchAndVerify -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="teardown" is-config="true" duration-ms="72" started-at="2016-03-28T15:18:10Z" finished-at="2016-03-28T15:18:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="setUp" is-config="true" duration-ms="1697" started-at="2016-03-28T15:18:10Z" finished-at="2016-03-28T15:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchABranchWithBranchName()[pri:1, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testSearchABranchWithBranchName" duration-ms="11563" started-at="2016-03-28T15:18:12Z" finished-at="2016-03-28T15:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchABranchWithBranchName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="teardown" is-config="true" duration-ms="68" started-at="2016-03-28T15:18:23Z" finished-at="2016-03-28T15:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="setUp" is-config="true" duration-ms="1694" started-at="2016-03-28T15:18:23Z" finished-at="2016-03-28T15:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchABranchWithBranchCode()[pri:2, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testSearchABranchWithBranchCode" duration-ms="11781" started-at="2016-03-28T15:18:25Z" finished-at="2016-03-28T15:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchABranchWithBranchCode -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="teardown" is-config="true" duration-ms="71" started-at="2016-03-28T15:18:37Z" finished-at="2016-03-28T15:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="setUp" is-config="true" duration-ms="1723" started-at="2016-03-28T15:18:37Z" finished-at="2016-03-28T15:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEditABranch()[pri:3, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testEditABranch" duration-ms="13143" started-at="2016-03-28T15:18:39Z" finished-at="2016-03-28T15:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditABranch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="teardown" is-config="true" duration-ms="70" started-at="2016-03-28T15:18:52Z" finished-at="2016-03-28T15:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="setUp" is-config="true" duration-ms="1717" started-at="2016-03-28T15:18:52Z" finished-at="2016-03-28T15:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDeleteABranch()[pri:4, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="testDeleteABranch" duration-ms="17360" started-at="2016-03-28T15:18:54Z" finished-at="2016-03-28T15:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteABranch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality@6ea6d14e]" name="teardown" is-config="true" duration-ms="67" started-at="2016-03-28T15:19:11Z" finished-at="2016-03-28T15:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality -->
+      <class name="com.servicenow.Tests.verifyLoginFunctionality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="setUp" is-config="true" duration-ms="2000" started-at="2016-03-28T15:16:45Z" finished-at="2016-03-28T15:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testInValidCredentials()[pri:0, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="testInValidCredentials" duration-ms="50974" started-at="2016-03-28T15:16:47Z" finished-at="2016-03-28T15:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInValidCredentials -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="teardown" is-config="true" duration-ms="73" started-at="2016-03-28T15:17:38Z" finished-at="2016-03-28T15:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="setUp" is-config="true" duration-ms="1702" started-at="2016-03-28T15:17:38Z" finished-at="2016-03-28T15:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testValidCredentials()[pri:1, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="testValidCredentials" duration-ms="11281" started-at="2016-03-28T15:17:40Z" finished-at="2016-03-28T15:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidCredentials -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="teardown" is-config="true" duration-ms="79" started-at="2016-03-28T15:17:51Z" finished-at="2016-03-28T15:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="setUp" is-config="true" duration-ms="1722" started-at="2016-03-28T15:17:51Z" finished-at="2016-03-28T15:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testRegisterNewUser()[pri:2, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="testRegisterNewUser" duration-ms="956" started-at="2016-03-28T15:17:53Z" finished-at="2016-03-28T15:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterNewUser -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyLoginFunctionality@28864e92]" name="teardown" is-config="true" duration-ms="70" started-at="2016-03-28T15:17:54Z" finished-at="2016-03-28T15:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.servicenow.Tests.verifyLoginFunctionality -->
+      <class name="com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="setUp" is-config="true" duration-ms="1748" started-at="2016-03-28T15:19:11Z" finished-at="2016-03-28T15:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCreateANewStaffAndVerify()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testCreateANewStaffAndVerify" duration-ms="14231" started-at="2016-03-28T15:19:13Z" finished-at="2016-03-28T15:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateANewStaffAndVerify -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="teardown" is-config="true" duration-ms="68" started-at="2016-03-28T15:19:27Z" finished-at="2016-03-28T15:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="setUp" is-config="true" duration-ms="1696" started-at="2016-03-28T15:19:27Z" finished-at="2016-03-28T15:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchAStaffWithStaffName()[pri:1, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testSearchAStaffWithStaffName" duration-ms="11645" started-at="2016-03-28T15:19:29Z" finished-at="2016-03-28T15:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAStaffWithStaffName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="teardown" is-config="true" duration-ms="68" started-at="2016-03-28T15:19:41Z" finished-at="2016-03-28T15:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="setUp" is-config="true" duration-ms="1710" started-at="2016-03-28T15:19:41Z" finished-at="2016-03-28T15:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSearchAStaffWithStaffRelatedBranchName()[pri:2, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testSearchAStaffWithStaffRelatedBranchName" duration-ms="11768" started-at="2016-03-28T15:19:42Z" finished-at="2016-03-28T15:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchAStaffWithStaffRelatedBranchName -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="teardown" is-config="true" duration-ms="69" started-at="2016-03-28T15:19:54Z" finished-at="2016-03-28T15:19:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="setUp" is-config="true" duration-ms="1728" started-at="2016-03-28T15:19:54Z" finished-at="2016-03-28T15:19:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testEditAStaff()[pri:3, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testEditAStaff" duration-ms="13097" started-at="2016-03-28T15:19:56Z" finished-at="2016-03-28T15:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditAStaff -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="teardown" is-config="true" duration-ms="70" started-at="2016-03-28T15:20:09Z" finished-at="2016-03-28T15:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="setUp" is-config="true" duration-ms="1718" started-at="2016-03-28T15:20:09Z" finished-at="2016-03-28T15:20:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDeleteAStaff()[pri:4, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="testDeleteAStaff" duration-ms="17342" started-at="2016-03-28T15:20:11Z" finished-at="2016-03-28T15:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteAStaff -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality@6ad5c04e]" name="teardown" is-config="true" duration-ms="67" started-at="2016-03-28T15:20:28Z" finished-at="2016-03-28T15:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality -->
+    </test> <!-- ServiceNow Tests -->
+  </suite> <!-- ServiceNow Suite -->
+</testng-results>

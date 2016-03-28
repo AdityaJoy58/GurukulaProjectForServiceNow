@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ServiceNow Suite">
+  <test name="ServiceNow Tests">
+  <groups>
+    <run>
+      <include name="ServiceNow_FunctionalTests" />
+    </run>
+  </groups>
+  <classes>
+    <class name="com.servicenow.Tests.verifyLoginFunctionality" />
+    <class name="com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality" />
+    <class name="com.servicenow.Tests.verifyCreateSearchEditDeleteStaffFuntionality" />
+  </classes>
+  </test>
+</suite>

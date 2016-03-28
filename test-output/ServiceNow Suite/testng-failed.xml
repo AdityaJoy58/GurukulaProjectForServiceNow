@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ServiceNow Suite]">
+  <test name="ServiceNow Tests(failed)">
+    <groups>
+      <run>
+        <include name="ServiceNow_FunctionalTests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality">
+        <methods>
+          <include name="testEditABranch"/>
+          <include name="testDeleteABranch"/>
+          <include name="testSearchABranchWithBranchName"/>
+          <include name="teardown"/>
+          <include name="testSearchABranchWithBranchCode"/>
+          <include name="testCreateANewBranchAndVerify"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.servicenow.Tests.verifyCreateSearchEditDeleteBranchFuntionality -->
+    </classes>
+  </test> <!-- ServiceNow Tests(failed) -->
+</suite> <!-- Failed suite [ServiceNow Suite] -->
